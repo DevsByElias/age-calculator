@@ -1,0 +1,76 @@
+:root {
+  font-family: "Fjalla One", sans-serif;
+}
+
+body {
+  background: linear-gradient(180deg, #0818ad3a, #ffffff7e);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.container {
+  background-color: transparent rgba(255, 255, 255, 0.75);
+  box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+  padding: 200px 275px;
+  border-bottom-right-radius: 2%;
+  border-top-right-radius: 5%;
+  border-bottom-left-radius: 2%;
+  border-top-left-radius: 5%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+}
+
+.input-container {
+  bottom: 120px;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  left: 45%;
+  position: relative;
+  appearance: none;
+}
+
+.input-day input,
+.input-month input,
+.input-year input {
+  font-size: 35px;
+  width: 240px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 16px;
+  border: none;
+  color: #232323;
+  background: rgba(117, 117, 117, 0.096);
+  outline: none;
+  font-family: "Fjalla One", sans-serif;
+  box-sizing: border-box;
+  text-align: center;
+  appearance: none;
+}
+
+.calc-button button {
+  margin-left: 520px;
+  margin-bottom: 50px;
+  border-radius: 100%;
+  border-width: 50px;
+  color: #f8f8f8;
+}
+
+.calcresults {
+  font-size: 130px;
+  margin-top: -125px;
+  margin-left: -200px;
+}
+.colored {
+  color: #0818ad88;
+}
