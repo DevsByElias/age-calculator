@@ -3,17 +3,21 @@
 }
 
 body {
-  background: linear-gradient(180deg, #0818ad3a, #ffffff7e);
+  background: linear-gradient(180deg, #0818ad3a, #9679ca7e);
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0;
 }
+h1 {
+  font-size: 35px;
+  text-align: center;
+}
 
 .container {
   background-color: transparent rgba(255, 255, 255, 0.75);
-  box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+  box-shadow: 0 4px 30px rgba(35, 35, 35, 0.432);
   padding: 200px 275px;
   border-bottom-right-radius: 2%;
   border-top-right-radius: 5%;
@@ -28,7 +32,7 @@ body {
 }
 
 .input-container {
-  bottom: 120px;
+  bottom: 180px;
   transform: translateX(-50%);
   display: flex;
   flex-direction: row;
@@ -49,7 +53,7 @@ body {
   background: rgba(255, 255, 255, 0.75);
   border-radius: 16px;
   border: none;
-  color: #232323;
+  color: #0818ad88;
   background: rgba(117, 117, 117, 0.096);
   outline: none;
   font-family: "Fjalla One", sans-serif;
@@ -60,10 +64,19 @@ body {
 
 .calc-button button {
   margin-left: 520px;
-  margin-bottom: 50px;
-  border-radius: 100%;
-  border-width: 50px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid #f8f8f8;
+  background-color: #0818ad88;
   color: #f8f8f8;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.calc-button button:hover {
+  background-color: #0818ad5a;
 }
 
 .calcresults {
